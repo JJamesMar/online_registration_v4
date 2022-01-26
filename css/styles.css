@@ -12,7 +12,7 @@ body {
 
 .line1 {
     display: inline-block;
-    width: 112px;
-    height: 47px;
+    width: 700px;
+    height: 5px;
     border-bottom: 1px solid black;
 }
