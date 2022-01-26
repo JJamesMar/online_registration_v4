@@ -6,20 +6,38 @@
 }
 
 body {
-    text-align: center;
     font: 300 100%/1.5 'Merriweather', sans-serif;
+    color: darkslategray;
+}
+
+header {
+    text-align: center;
 }
 
 .line1 {
-    display: inline-block;
-    width: 700px;
+    margin: 0 auto;
+    padding: 5px;
+    width: 300px;
     height: 5px;
     border-bottom: 1px solid black;
 }
 
 .line2 {
-    display: inline-block;
-    width: 700px;
+    margin: 0 auto;
+    padding: 5px;
+    width: 300px;
     height: 5px;
     border-bottom: 20px solid black;
 }
+
+.line3 {
+    max-width: 380px;
+    height: 5px;
+    margin: 0 auto;
+    border-bottom: 1px solid black;
+}
+
+form {
+    width: 300px;
+    padding: 10px 30px ;
+  }
