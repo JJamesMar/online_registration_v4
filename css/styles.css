@@ -16,3 +16,10 @@ body {
     height: 5px;
     border-bottom: 1px solid black;
 }
+
+.line2 {
+    display: inline-block;
+    width: 700px;
+    height: 5px;
+    border-bottom: 20px solid black;
+}
