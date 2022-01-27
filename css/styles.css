@@ -38,6 +38,13 @@ header {
 }
 
 form {
-    width: 300px;
+    max-width: 300px;
     padding: 10px 30px ;
   }
+
+
+/* DRY Styles --------------------- */
+
+fieldset {
+    border: none;
+}
