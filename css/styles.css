@@ -7,44 +7,30 @@
 
 body {
     font: 300 100%/1.5 'Merriweather', sans-serif;
-    color: darkslategray;
+    color: #2f4f4f;
 }
 
 header {
     text-align: center;
 }
 
-.line1 {
-    margin: 0 auto;
-    padding: 5px;
-    width: 300px;
-    height: 5px;
-    border-bottom: 1px solid black;
+h1 {
+    background-color: #2c333d;
+    color: #fff;
+    margin-top: 0px;
 }
-
-.line2 {
-    margin: 0 auto;
-    padding: 5px;
-    width: 300px;
-    height: 5px;
-    border-bottom: 20px solid black;
-}
-
-.line3 {
-    max-width: 380px;
-    height: 5px;
-    margin: 0 auto;
-    border-bottom: 1px solid black;
-}
-
-form {
-    max-width: 300px;
-    padding: 10px 30px ;
-  }
-
 
 /* DRY Styles --------------------- */
 
 fieldset {
     border: none;
+}
+
+/* Meadia Q --------------------- */
+
+@media (min-width: 769px) {
+    .inln {
+        width: auto;
+        display: inline-block;
+    }
 }
