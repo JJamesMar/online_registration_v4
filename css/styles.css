@@ -17,6 +17,8 @@ header {
 legend {
     padding-top: 20px;
     margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 1.2rem;
 }
 
 .thin_line {
@@ -48,12 +50,27 @@ legend {
     padding: 5px;
 }
 
+input[type="text"],
+input[type="name"],
+input[type="email"],
+input[type="tel"],
+select[id="state"],
+textarea[id="topics"] {
+    background-color: rgba(199, 194, 194, 0.863);
+    border: none;
+    font-size: 16px;
+    padding: 16px;
+    width: 100%;
+    border-radius: .2rem;
+    margin: 10px 0;
+}
+
 /* DRY Styles --------------------- */
 
 fieldset {
     border: none;
 }
-p {
+p, label {
     color: #c9c9c9;
 }
 /* Meadia Q --------------------- */
