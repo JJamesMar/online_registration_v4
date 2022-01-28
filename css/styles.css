@@ -14,10 +14,24 @@ header {
     text-align: center;
 }
 
-hr {
-    width: 80%;
-    height: 2rem;
+legend {
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.thin_line {
+    width: 90%;
     margin: auto;
+    border: solid 1px #2c333d;
+}
+
+.thick_line {
+    width: 90%;
+    margin:  auto;
+    margin-bottom: 2.5px;
+    border: solid 2px #2c333d;
+    
+
 }
 
 .main_header {
