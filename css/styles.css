@@ -14,10 +14,24 @@ header {
     text-align: center;
 }
 
+hr {
+    width: 80%;
+    height: 2rem;
+    margin: auto;
+}
+
 .main_header {
     background-color: #2c333d;
     color: #fff;
     padding: 20px 40px;
+}
+.second_header {
+    margin:15px 0px 5px;
+    padding: 5px;
+}
+.space {
+    margin-bottom: 20px;
+    padding: 5px;
 }
 
 /* DRY Styles --------------------- */
@@ -25,7 +39,9 @@ header {
 fieldset {
     border: none;
 }
-
+p {
+    color: #c9c9c9;
+}
 /* Meadia Q --------------------- */
 
 @media (min-width: 769px) {
