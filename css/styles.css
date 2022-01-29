@@ -22,8 +22,7 @@ legend {
 }
 
 form {
-    width: 100%;
-    margin: auto;
+    padding: 20px 16px 60px;
 }
 button {
   width: 100%;
@@ -39,6 +38,12 @@ button {
 
 .thin_line {
     width: 90%;
+    margin: auto;
+    border: solid 1px #2c333d;
+}
+
+.thin_line1 {
+    width: 100%;
     margin: auto;
     border: solid 1px #2c333d;
 }
