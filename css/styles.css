@@ -21,6 +21,22 @@ legend {
     font-size: 1.2rem;
 }
 
+form {
+    width: 100%;
+    margin: auto;
+}
+button {
+  width: 100%;
+  border: none;
+  padding: 20px 40px;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  background-color: #30acac;
+  border-radius: .3rem;
+  
+}
+
 .thin_line {
     width: 90%;
     margin: auto;
@@ -65,6 +81,10 @@ textarea[id="topics"] {
     margin: 10px 0;
 }
 
+input[type="checkbox"],
+input[type="radio"] {
+    margin: 0 10px 8px 0;
+}
 /* DRY Styles --------------------- */
 
 fieldset {
@@ -73,6 +93,7 @@ fieldset {
 p, label {
     color: #c9c9c9;
 }
+
 /* Meadia Q --------------------- */
 
 @media (min-width: 769px) {
