@@ -15,7 +15,7 @@
     <header>
         <h2 class="main_header">THE CODE REVIEW</h2>
         <h2 class="second_header">Signup for our newsletter</h2>
-        <p class="space">Get the latest news on how your code is doing right in your inbox</p>
+        <p id="space">Get the latest news on how your code is doing right in your inbox</p>
         <div class="thick_line"></div>
         <div class="thin_line"></div>
     </header>
@@ -35,33 +35,40 @@
                 <input type="text" id="city" name="user_city">
                 <label for="state">State</label><br>
                 <select id="state" name="user_state">
+                    <option>Choose State</option>
                     <option value="tennessee">Tennessee</option>
                     <option value="mississippi">Mississippi</option>
                     <option value="arkansas">Arkansas</option>
                 </select><br>         
-                <label for="zip">Zip Code</label>
+                <label for="zip">Zip Code</label><br>
                 <input type="text" id="zip" name="user_zip">
             </fieldset>
             <div class="thin_line1"></div>
             <fieldset>
                 <legend>Newsletter</legend>
-                <label>Select the newsletters you would like to recieve</label><br>
+                <div class="lable_space1">
+                    <label>Select the newsletters you would like to recieve</label><br>
+                </div>
                 <input type="checkbox" id="html_news" value="html_news" name="news">
                 <label for="html_news">HTML News</label><br>
                 <input type="checkbox" id="css_news" value="css_news" name="news">
                 <label for="css_news">CSS News</label><br>
                 <input type="checkbox" id="javascript_news" value="javascript_news" name="news">
                 <label for="javascript_news">Javascript News</label><br>
-                <label>Newsletter format</label><br>
+                <div class="lable_space">
+                    <label>Newsletter format</label><br>
+                </div>
                 <input type="radio" id="html" value="html" name="format">
                 <label for="html">HTML</label><br>
                 <input type="radio" id="plain_text" value="plain_text" name="format">
                 <label for="plain_text">Plain text</label><br>
-                <label for="topics">Other topics you'd like to hear about</label>
+                <div class="lable_space">
+                    <label for="topics">Other topics you'd like to hear about</label>
+                </div>
                 <textarea id="topics" name="user_topics"></textarea>
             </fieldset>
             <button type="submit">Sign Up</button>
-            <p>copyright The Code Review</p>
+            <p class="copy">Copyright The Code Review</p>
         </form>
     </main>
     <footer>
