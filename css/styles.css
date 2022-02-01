@@ -133,10 +133,18 @@ fieldset {
 p, label {
     color: #2c333daf;
 }
-
+/* Flex --------------------- */
 .footer {
     display: flex;
     justify-content: center;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+}
+.field {
+    display: flex;
+    flex-direction: column;
 }
 /* Meadia Q --------------------- */
 
