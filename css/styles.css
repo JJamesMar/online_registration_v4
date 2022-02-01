@@ -55,8 +55,6 @@ button {
     margin:  auto;
     margin-bottom: 2.5px;
     border: solid 2px #2c333d;
-    
-
 }
 .copy {
     text-align: center;
@@ -142,15 +140,52 @@ p, label {
     display: flex;
     flex-direction: column;
 }
-.field {
+.container {
     display: flex;
     flex-direction: column;
 }
 /* Meadia Q --------------------- */
 
 @media (min-width: 769px) {
-    .inln {
-        width: auto;
-        display: inline-block;
+ 
+    main {
+        max-width: 600px;
+        margin: auto;
     }
+
+    .container {
+        flex-direction: row;
+    }
+
+    .container label {
+        width: 30%;
+        margin: auto 0;
+    }
+
+    .container input,
+    .container select {
+        width: 70%;
+    }
+    
+    input[id="zip"] {
+        width: 25%;
+    }
+
+    .thick_line, .thin_line {
+        max-width: 600px;
+    }
+
+    .second_header {
+        margin: 40px 0px 0px;
+    }
+
+    #space {
+        margin-bottom: 40px;
+        padding: 0px;
+    }
+    form {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
 }
