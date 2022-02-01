@@ -114,7 +114,11 @@ textarea[id="topics"] {
     margin: 8px 10px 10px 0;
 }
 
-
+::placeholder {
+    font-size: 10px;
+    font-style: italic;
+    text-align: right;
+}
 
 /* DRY Styles --------------------- */
 
