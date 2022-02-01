@@ -121,6 +121,10 @@ textarea[id="topics"] {
     color: rgb(177, 177, 177);
 }
 
+select {
+    color: #999999bd;
+}
+
 /* DRY Styles --------------------- */
 
 fieldset {
