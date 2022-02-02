@@ -37,6 +37,9 @@ button {
     margin-top: 10px;
 }
 
+.backcolor {
+    background-color: #f3f0f041;
+}
 .thin_line {
     width: 90%;
     margin: auto;
@@ -116,8 +119,8 @@ input:focus,
 textarea:focus,
 select:focus {
     background-color: #66636362;
+    transition: 500ms;
 }
-
 
 ::placeholder {
     font-size: 12px;
