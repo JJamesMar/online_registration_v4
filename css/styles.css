@@ -112,6 +112,13 @@ textarea[id="topics"] {
     margin: 8px 10px 10px 0;
 }
 
+input:focus,
+textarea:focus,
+select:focus {
+    background-color: #66636362;
+}
+
+
 ::placeholder {
     font-size: 12px;
     font-style: italic;
@@ -146,7 +153,7 @@ p, label {
 }
 /* Meadia Q --------------------- */
 
-@media (min-width: 769px) {
+@media (min-width: 768px) {
  
     main {
         max-width: 600px;
@@ -169,6 +176,7 @@ p, label {
     
     input[id="zip"] {
         width: 25%;
+
     }
 
     .thick_line, .thin_line {
