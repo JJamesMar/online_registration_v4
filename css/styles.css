@@ -24,6 +24,7 @@ legend {
 form {
     padding: 20px 16px 30px;
 }
+
 button {
     font-family: inherit;
     width: 100%;
@@ -40,6 +41,7 @@ button {
 .backcolor {
     background-color: #f3f0f041;
 }
+
 .thin_line {
     width: 90%;
     margin: auto;
@@ -59,11 +61,13 @@ button {
     margin-bottom: 2.5px;
     border: solid 2px #2c333d;
 }
+
 .copy {
     text-align: center;
     font-style: italic;
     padding-bottom: 60px;
 }
+
 .main_header {
     background-color: #2c333d;
     color: #fff;
@@ -77,6 +81,7 @@ button {
 .lable_space {
     margin: 16px 0 14px;
 }
+
 .lable_space1 {
     margin: 0 0 14px;
 }
@@ -133,14 +138,13 @@ select {
     color: #999999bd;
 }
 
-/* DRY Styles --------------------- */
-
 fieldset {
     border: none;
 }
 p, label {
     color: #2c333daf;
 }
+
 /* Flex --------------------- */
 .footer {
     display: flex;
@@ -154,7 +158,8 @@ p, label {
     display: flex;
     flex-direction: column;
 }
-/* Meadia Q --------------------- */
+
+/* media query --------------------- */
 
 @media (min-width: 768px) {
  
